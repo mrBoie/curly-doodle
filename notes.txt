@@ -5,3 +5,4 @@ sudo apt-get update && sudo apt-get install oracle-java8-jdk
 Jenkins
 http://ifahrentholz.de/2017/setup-jenkins-on-raspberry/
 use port 8080 instead...
+test
