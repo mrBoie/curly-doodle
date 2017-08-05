@@ -12,3 +12,4 @@ RUN tar -xvf node-*.tar.gz -C /usr/local \
   --strip-components=1
 
 CMD ["node"]  
+CMD ["process.exit(0)"]
