@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MainApp
+namespace TestApp
 {
     class Program
     {
