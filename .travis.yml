@@ -9,7 +9,7 @@ script:
 # prepare qemu
 - docker run --rm --privileged multiarch/qemu-user-static:register --reset
 # build image
-- docker build -t curly_doodle .
+- docker build -t iotplayground .
 # push image
 - docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
 - docker push mrboie/iotplayground
