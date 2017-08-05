@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+- docker
+
+before_install:
+# prepare qemu
+- docker run --rm --privileged multiarch/qemu-user-static:register --reset
+# build image
+- docker build -t curly_doodle .
