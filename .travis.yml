@@ -3,7 +3,7 @@ sudo: required
 services:
 - docker
 
-language:bash
+language: bash
 
 script:
 # prepare qemu
@@ -11,5 +11,5 @@ script:
 # build image
 - docker build -t curly_doodle .
 # push image
-docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
-docker push mrboie/iotplayground
+- docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
+- docker push mrboie/iotplayground
